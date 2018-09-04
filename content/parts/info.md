@@ -1,5 +1,4 @@
 ---
 title: info
 ---
-
-I am a front-end web developer. I used to be a web designer also, but now I concentrate on the code.
+歡迎來到東雪梨台福教會! 現在網站還在更新，謝謝大家的體諒！我們教會每星期六有主日禮拜，每星期三有禱告會和每星期五有小組聚會。歡迎大家加入！

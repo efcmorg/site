@@ -1,32 +1,32 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "PersonalBlog - a blog starter for GatsbyJS", // <title>
-  shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteTitle: "東雪梨台福基督教會", // <title>
+  //shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
+  siteDescription: "東雪梨台福基督教會網頁",
+  siteUrl: "https://efcm.org.au",
   pathPrefix: "",
-  siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteImage: "avatar.jpg",
+  siteLanguage: "cn",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Ivan Pang",
+  //authorTwitterAccount: "greglobinski",
   // info
-  infoTitle: "greg lobinski",
-  infoTitleNote: "personal blog",
+  infoTitle: "",
+  infoTitleNote: "東雪梨台福基督教會",
   // manifest.json
-  manifestName: "PersonalBlog - a blog starter for GatsbyJS",
+  manifestName: "東雪梨台福基督教會網頁",
   manifestShortName: "PersonalBlog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "john@doe.com",
+  contactEmail: "efcm@gmail.com",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
+    //{ name: "github", url: "https://github.com/greglobinski" },
+    //{ name: "twitter", url: "https://twitter.com/greglobinski" },
     { name: "facebook", url: "http://facebook.com/greglobinski" }
   ]
 };
