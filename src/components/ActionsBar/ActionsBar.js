@@ -30,7 +30,7 @@ const styles = theme => ({
     //background: theme.bars.colors.dark,
     background: "#4D4D50",
     left: 0,
-    //top: `calc(100vh - ${theme.bars.sizes.actionsBar}px)`,
+    top: `calc(100vh - ${theme.bars.sizes.actionsBar}px)`,
     bottom: 0,
     display: "flex",
     flexDirection: "row",
