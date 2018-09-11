@@ -3,7 +3,7 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 import Color from "color";
 
-import colors from "./new-colors";
+import colors from "./colors";
 
 const theme = createMuiTheme({
   base: {
@@ -22,14 +22,14 @@ const theme = createMuiTheme({
     },
     fonts: {
       unstyledFamily: `Arial`,
-      styledFamily: "IBM Plex Serif",
+      styledFamily: "Open Sans",
       styledFonts: "300,400,600"
     }
   },
   info: {
     colors: {
       text: colors.bright,
-      background: colors.background,
+      background: colors.dark,
       socialIcons: colors.lightGray,
       socialIconsHover: colors.accent,
       menuLink: colors.bright,
@@ -47,7 +47,7 @@ const theme = createMuiTheme({
   },
   navigator: {
     colors: {
-      background: colors.background,
+      background: colors.dark,
       postsListItemLink: colors.bright,
       postsListItemLinkHover: colors.accent,
       postsHeader: colors.bright
@@ -63,7 +63,7 @@ const theme = createMuiTheme({
   main: {
     colors: {
       background: colors.background,
-      title: colors.bright,
+      title: colors.dark,
       subTitle: colors.bright,
       meta: colors.bright,
       content: colors.bright,
@@ -75,7 +75,7 @@ const theme = createMuiTheme({
       fbCommentsColorscheme: "dark"
     },
     sizes: {
-      articleMaxWidth: "50em"
+      articleMaxWidth: "150em"
     },
     fonts: {
       title: {

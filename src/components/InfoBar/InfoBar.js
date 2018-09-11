@@ -16,6 +16,7 @@ const styles = theme => ({
   infoBar: {
     position: "absolute",
     background: theme.bars.colors.background,
+    //background :"#4D4D50",
     top: 0,
     left: 0,
     width: "100%",

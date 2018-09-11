@@ -1,8 +1,9 @@
 ---
-title: 關於
+title: 關於我們
 ---
+![](./HeaderLogo.png)
 
-###歡迎來到東雪梨台福基督教會
+![](./CommunityInfo.png)
 
-網站還在更新，謝謝大家的體諒！
+![](./ContactUs.png)
 

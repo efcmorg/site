@@ -13,7 +13,7 @@ module.exports = {
   //authorTwitterAccount: "greglobinski",
   // info
   infoTitle: "",
-  infoTitleNote: "東雪梨台福基督教會",
+  infoTitleNote: "東雪梨台福",
   // manifest.json
   manifestName: "東雪梨台福基督教會網頁",
   manifestShortName: "PersonalBlog", // max 12 characters
@@ -22,11 +22,11 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "efcm@gmail.com",
+  contactEmail: "phdshaw@gmail.com",
   // social
   authorSocialLinks: [
     //{ name: "github", url: "https://github.com/greglobinski" },
     //{ name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "facebook", url: "https://www.facebook.com/groups/efcsociety/" }
   ]
 };

@@ -45,7 +45,7 @@ const Header = props => {
 
   return (
     <header className={classes.header}>
-      <h1 className={classes.title}>{title}</h1>
+     <h1 font size='0' className={classes.title}>{title}</h1>
       {algolia && (
         <a
           className={classes.mark}
