@@ -20,6 +20,7 @@ const styles = theme => ({
       display: "block",
       color: theme.info.colors.text,
       background: theme.info.colors.background,
+      //background:"#34D4D50",
       position: "absolute",
       left: 0,
       top: 0,

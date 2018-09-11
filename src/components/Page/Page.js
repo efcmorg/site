@@ -11,7 +11,6 @@ const Page = props => {
 
   return (
     <Article>
-      <PageHeader {...page.frontmatter} />
       <Content html={html} />
     </Article>
   );
@@ -20,5 +19,8 @@ const Page = props => {
 Page.propTypes = {
   page: PropTypes.object.isRequired
 };
+
+
+
 
 export default Page;
