@@ -84,11 +84,7 @@ const ListHeader = props => {
     <header>
       {navigatorShape === "closed" && (
         <div className={classes.closed}>
-<<<<<<< HEAD
           <h3>新聞</h3>
-=======
-          <h3>List of posts</h3>
->>>>>>> 96856f7c1a3b484fe76d08f47e33372f774af9e4
           <IconButton
             aria-label="Expand the list"
             className={classes.expand}
