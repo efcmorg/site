@@ -14,16 +14,19 @@ const styles = theme => ({
       color: theme.base.colors.link
     },
     "& .gatsby-highlight": {
-      margin: "2em 0"
+      margin: "0em 0"
     },
     "& .gatsby-resp-iframe-wrapper": {
-      margin: "2em 0"
+      margin: "0em 0"
     },
     "& .gatsby-resp-image-link": {
-      margin: "2em -1.5rem",
+      margin: "0em -1.5rem",
       border: "none",
       [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-        margin: "2.5em -3.5rem"
+        margin: "0em 6.5rem",
+        width: "70%",
+        height: "70%",
+        
       }
     },
     "& h2, & h3": {
@@ -32,13 +35,13 @@ const styles = theme => ({
       fontWeight: theme.main.fonts.contentHeading.weight,
       lineHeight: theme.main.fonts.contentHeading.lineHeight,
       margin: "2em 0 1em",
-      letterSpacing: "-0.02em"
+      letterSpacing: "-0.02em",
     },
     "& h3": {
       fontSize: `${theme.main.fonts.contentHeading.h3Size}em`
     },
     "& p": {
-      margin: "0 0 1.5em 0",
+      margin: "0 0 1.5em",
       fontWeight: 400
     },
     "& ul": {

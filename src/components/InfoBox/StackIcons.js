@@ -66,23 +66,8 @@ const StackIcons = props => {
 
   return (
     <div className={classes.stack}>
-      <h5 className={classes.header}>built with:</h5>
       <div className={classes.box}>
-        {items.map(item => {
-          const Icon = item.comp;
-          return (
-            <a
-              href={item.url}
-              key={item.name}
-              className={classes.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              title={item.name}
-            >
-              <Icon className={classes.svg} />
-            </a>
-          );
-        })}
+        
       </div>
     </div>
   );
