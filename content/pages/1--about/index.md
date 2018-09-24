@@ -3,7 +3,7 @@ title: 關於我們
 ---
 ![](./title.png)
 
-![](./communityInfo.png)
+![](./community.png)
 
 ![](./Contact.png)
 
