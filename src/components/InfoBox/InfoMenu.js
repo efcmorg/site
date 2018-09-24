@@ -43,12 +43,9 @@ const InfoMenu = props => {
           </Link>
         );
       })}
-<<<<<<< HEAD
       <Link to="/map/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         地址
       </Link>
-=======
->>>>>>> 96856f7c1a3b484fe76d08f47e33372f774af9e4
       <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         聯繫
       </Link>
