@@ -1,15 +1,16 @@
 import React from "react";
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from "google-maps-react";
+import PropTypes from "prop-types";
 import Main from "../components/Main";
 import Article from "../components/Main/Article";
 import PageHeader from "../components/Page/PageHeader"; 
 import Content from "../components/Main/Content";
 
-const style = {
+const GoogleMapstyle = {
   width: '80%',
   height: '50%',
 }
- 
+
 export class MapContainer extends React.Component {
   render() {
     return (
@@ -29,7 +30,7 @@ export class MapContainer extends React.Component {
             <p>From City: 393,394,395,396,397,398,399, m10</p>
             <p>From Eastgarden: 400</p>
             </Content>
-          <Map google={this.props.google} style={style}  initialCenter={{
+          <Map google={this.props.google} style={GoogleMapstyle}  initialCenter={{
                 lat: -33.943735,
                 lng: 151.239297
               }} 
@@ -48,6 +49,7 @@ export class MapContainer extends React.Component {
     );
   }
 }
+
 
 
 export default GoogleApiWrapper({
