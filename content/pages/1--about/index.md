@@ -1,9 +1,8 @@
 ---
-title: 關於我們
+title: 關於
 ---
 ![](./title.png)
 
 ![](./community.png)
 
 ![](./Contact.png)
-

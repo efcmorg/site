@@ -16,10 +16,9 @@ const Contact = () => {
   return (
     <Main>
       <Article>
-        <PageHeader title="Contact" />
+        <PageHeader title="聯繫我們" />
         <Content>
-          Feel free to contact me by email: <Obfuscate email={config.contactEmail} /> or use the
-          form below.
+          你可以把電子郵件發送到: <Obfuscate email={config.contactEmail} /> 或者輸入你的資料.
         </Content>
         <Form />
       </Article>
