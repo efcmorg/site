@@ -6,8 +6,8 @@ import PageHeader from "../components/Page/PageHeader";
 import Content from "../components/Main/Content";
 
 const style = {
-  width: '90%',
-  height: '90%',
+  width: '80%',
+  height: '50%',
 }
  
 export class MapContainer extends React.Component {
@@ -24,8 +24,8 @@ export class MapContainer extends React.Component {
           (GPS: 829 Anzac Parade, Maroubra)
           </p>
             <h3>開車</h3>
-            <p>教會對面有停車地方，請注意免費停車的時間</p>
-            <h3>公共交通</h3>
+            <p>教會對面有停車的地方，請注意免費停車的時間</p>
+            <h3>交通工具</h3>
             <p>From City: 393,394,395,396,397,398,399, m10</p>
             <p>From Eastgarden: 400</p>
             </Content>
