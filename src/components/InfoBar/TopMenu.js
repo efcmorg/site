@@ -83,7 +83,7 @@ class TopMenu extends React.Component {
                         this.handleClose();
                       }}
                     >
-                      Home
+                      新聞
                     </MenuItem>
                     {pages.map((page, i) => {
                       const { fields, frontmatter } = page.node;
