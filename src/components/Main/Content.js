@@ -10,6 +10,7 @@ const styles = theme => ({
     color: theme.main.colors.content,
     fontSize: props => `calc(${theme.main.fonts.content.size}em * ${props.fontSizeIncrease})`,
     lineHeight: theme.main.fonts.content.lineHeight,
+    margin: `auto`,
     "& a": {
       color: theme.base.colors.link
     },
@@ -20,12 +21,12 @@ const styles = theme => ({
       margin: "0em 0"
     },
     "& .gatsby-resp-image-link": {
-      margin: "0em -1.5rem",
+      margin: "0em 0em",
       border: "none",
       [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-        margin: "0em 6.5rem",
-        width: "70%",
-        height: "70%",
+       margin: "0em 0rem",
+        width: "100%",
+        height: "100%",
         
       }
     },
@@ -41,18 +42,18 @@ const styles = theme => ({
       fontSize: `${theme.main.fonts.contentHeading.h3Size}em`
     },
     "& p": {
-      margin: "0 0 1.5em",
+      margin: "0 0rem 1.5em",
       fontWeight: 400
     },
     "& ul": {
       listStyle: "circle",
-      padding: "0 0 0 1.3em",
+      padding: "0 0rem 0 1.3em",
       [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
         padding: "0 0 0 2em"
       }
     },
     "& li": {
-      margin: "0 0 .5em 0"
+      margin: "0 0rem .5em 0"
     },
     "& blockquote": {
       border: `5px solid ${theme.main.colors.blockquoteFrame}`,

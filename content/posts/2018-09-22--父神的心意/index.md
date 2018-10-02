@@ -2,7 +2,7 @@
 title: 主日證道 -- 父神的心意
 subTitle: 邵海東牧師
 category: "證道"
-cover: photo-1490474418585-ba9bad8fd0ea-cover.jpg
+cover: philip.jpg
 ---
 ##經文：耶利米書卅二章30-41節
 

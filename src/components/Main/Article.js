@@ -12,15 +12,6 @@ const styles = theme => ({
     "& strong, & b": {
       letterSpacing: "-.02em"
     },
-    "& a": {
-      fontWeight: "bold",
-      letterSpacing: "-.02em",
-      textDecoration: "underline",
-      transition: "0.3s",
-      "&:hover": {
-        color: theme.base.colors.linkHover
-      }
-    },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       padding: `calc(2.5rem + ${theme.bars.sizes.infoBar}px) 3.5rem 2.5rem`
     },
