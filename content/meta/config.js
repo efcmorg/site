@@ -5,7 +5,7 @@ module.exports = {
   //shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
   siteDescription: "東雪梨台福基督教會網頁",
   siteUrl: "https://efcm.org.au",
-  pathPrefix: "",
+  pathPrefix: "/about/",
   siteImage: "avatar.jpg",
   siteLanguage: "cn",
   // author
