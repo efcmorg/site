@@ -1,16 +1,25 @@
 import React from "react";
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from "google-maps-react";
-import PropTypes from "prop-types";
 import Main from "../components/Main";
 import Article from "../components/Main/Article";
 import PageHeader from "../components/Page/PageHeader"; 
 import Content from "../components/Main/Content";
+import headerImage from "../images/jpg/locateUs.png";
+
 
 const GoogleMapstyle = {
   margin: "0 0rem 6em",
   width: '80%',
   height: '50%'
 }
+
+const imageStyle ={
+
+  margin: "0 0em 3em",
+  width: '90%',
+  height: '100%'
+}
+
 
 
 
@@ -40,39 +49,42 @@ export class MapContainer extends React.Component {
     }
   };
 
+
+
   render() {
     return (
       <Main>
-        <Article  >
+        <Article>
           <Content>
-          <PageHeader title="地址"/> 
-            <p>
-            我們在 Wise street 和 Anzac Paraide 的交界，我們教會是跟 Hope Uniting Church 共用
-            </p>
-            <p> 
-            (GPS: 829 Anzac Parade, Maroubra)
-            </p>
-            <h3>開車</h3>
-              <p>教會對面有停車的地方，請注意免費停車的時間</p>
-              <h3>交通工具</h3>
-              <p>From City: 393,394,395,396,397,398,399, m10</p>
-              <p>From Eastgarden: 400</p>
-              <Map containerStyle={GoogleMapstyle}  google={this.props.google} initialCenter={{
-                  lat: -33.943735,
-                  lng: 151.239297
-                }}
-                  zoom={18}
-                  onClick={this.onMapClicked} 
-              >
-                <Marker onClick={this.onMarkerClick} name={"東雪梨台福基督教會"} />
-                <InfoWindow
-                  marker={this.state.activeMarker}
-                  visible={this.state.showingInfoWindow}>
-                    <div>
-                      <a href={directionUrl}>{this.state.selectedPlace.name}</a> 
-                    </div>
-                </InfoWindow>    
-              </Map>
+            <img style={imageStyle} src={headerImage}/>
+            <PageHeader title="地址"/> 
+              <p>
+              我們在 Wise street 和 Anzac Paraide 的交界，我們教會是跟 Hope Uniting Church 共用
+              </p>
+              <p> 
+              (GPS: 829 Anzac Parade, Maroubra)
+              </p>
+              <h3>開車</h3>
+                <p>教會對面有停車的地方，請注意免費停車的時間</p>
+                <h3>交通工具</h3>
+                <p>From City: 393,394,395,396,397,398,399, m10</p>
+                <p>From Eastgarden: 400</p>
+                <Map containerStyle={GoogleMapstyle}  google={this.props.google} initialCenter={{
+                    lat: -33.943735,
+                    lng: 151.239297
+                  }}
+                    zoom={18}
+                    onClick={this.onMapClicked} 
+                >
+                  <Marker onClick={this.onMarkerClick} name={"東雪梨台福基督教會"} />
+                  <InfoWindow
+                    marker={this.state.activeMarker}
+                    visible={this.state.showingInfoWindow}>
+                      <div>
+                        <a href={directionUrl}>{this.state.selectedPlace.name}</a> 
+                      </div>
+                  </InfoWindow>    
+                </Map>
             </Content>
         </Article>
       </Main>

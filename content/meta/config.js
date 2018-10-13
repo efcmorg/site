@@ -16,8 +16,8 @@ module.exports = {
   infoTitleNote: "東雪梨台福",
   // manifest.json
   manifestName: "東雪梨台福基督教會網頁",
-  manifestShortName: "PersonalBlog", // max 12 characters
-  manifestStartUrl: "/",
+  manifestShortName: "東雪梨台福", // max 12 characters
+  manifestStartUrl: "/about/",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
