@@ -16,7 +16,7 @@ const GoogleMapstyle = {
 const imageStyle ={
 
   margin: "0 0em 3em",
-  width: '90%',
+  width: '100%',
   height: '100%'
 }
 
