@@ -2,7 +2,7 @@
 title: 主日證道 -- 父神的心意
 subTitle: 邵海東牧師
 category: "證道"
-cover: philip.jpg
+cover: Jeremiah.jpg
 ---
 ##經文：耶利米書卅二章30-41節
 
@@ -33,4 +33,5 @@ cover: philip.jpg
 2. 為什麼以色列民被稱為是神的選民？
 3. 神為祂的兒女預備了怎樣的救恩計劃？
 
+![](./Jeremiah.jpg)
 
