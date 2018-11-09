@@ -1,5 +1,5 @@
 ---
-title: 主日證道 -- 嫉妒的神
+title: 學主耶穌的樣式
 subTitle: 簡承凱傳道
 category: "證道"
 cover: Numbers.jpg

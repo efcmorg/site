@@ -1,5 +1,5 @@
 ---
-title: 主日證道 -- 父神的心意
+title: 父神的心意
 subTitle: 邵海東牧師
 category: "證道"
 cover: Jeremiah.jpg

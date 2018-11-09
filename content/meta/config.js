@@ -3,7 +3,7 @@ const colors = require("../../src/styles/colors");
 module.exports = {
   siteTitle: "東雪梨台福基督教會", // <title>
   //shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "東雪梨台福基督教會網頁",
+  siteDescription: "歡迎來到東雪梨台福基督教會，我們每星期六早上十點有主日禮拜，歡迎大家參加！",
   siteUrl: "http://efcm.org.au",
   pathPrefix: "/about/",
   siteImage: "avatar.jpg",

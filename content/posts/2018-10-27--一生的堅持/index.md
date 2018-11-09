@@ -1,5 +1,5 @@
 ---
-title: 主日證道 -- 一生的堅持
+title: 一生的堅持
 subTitle: 簡承凱傳道
 category: "證道"
 cover: Timothy.jpg

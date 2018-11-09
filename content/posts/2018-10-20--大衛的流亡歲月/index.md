@@ -1,5 +1,5 @@
 ---
-title: 主日證道 -- 大衛的流亡歲月
+title: 大衛的流亡歲月
 subTitle: 趙雪雲傳道
 category: "證道"
 cover: david.jpg
