@@ -49,6 +49,9 @@ const InfoMenu = props => {
       <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         聯繫
       </Link>
+      <Link to="/search/" onClick={linkOnClick} className={classes.link} data-shape="closed">
+        搜索
+      </Link>
     </nav>
   );
 };

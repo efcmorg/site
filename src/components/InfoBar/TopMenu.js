@@ -121,6 +121,16 @@ class TopMenu extends React.Component {
                        聯繫
                       </MenuItem>
                     </Link>
+                    <Link to="/search/" style={{ display: "block" }}>
+                      <MenuItem
+                        onClick={e => {
+                          this.props.pageLinkOnClick(e);
+                          this.handleClose();
+                        }}
+                      >
+                       搜索
+                      </MenuItem>
+                    </Link>
                   </MenuList>
                 </Paper>
               </Grow>
