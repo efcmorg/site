@@ -77,14 +77,6 @@ class TopMenu extends React.Component {
               <Grow in={open} id="menu-list" style={{ transformOrigin: "0 0 0" }}>
                 <Paper>
                   <MenuList role="menu">
-                    <MenuItem
-                      onClick={e => {
-                        this.props.homeLinkOnClick(e);
-                        this.handleClose();
-                      }}
-                    >
-                      新聞
-                    </MenuItem>
                     {pages.map((page, i) => {
                       const { fields, frontmatter } = page.node;
 
@@ -119,16 +111,6 @@ class TopMenu extends React.Component {
                         }}
                       >
                        聯繫
-                      </MenuItem>
-                    </Link>
-                    <Link to="/search/" style={{ display: "block" }}>
-                      <MenuItem
-                        onClick={e => {
-                          this.props.pageLinkOnClick(e);
-                          this.handleClose();
-                        }}
-                      >
-                       搜索
                       </MenuItem>
                     </Link>
                   </MenuList>

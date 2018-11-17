@@ -83,9 +83,6 @@ class CategoryFilter extends React.Component {
               <Grow in={open} id="cat-menu-list" style={{ transformOrigin: "0 0 0" }}>
                 <Paper>
                   <MenuList role="menu">
-                    <MenuItem key="all" onClick={this.handleFiltering}>
-                      所有帖子
-                    </MenuItem>
                     {categories.map(category => (
                       <MenuItem key={category} onClick={this.handleFiltering}>
                         {category}
